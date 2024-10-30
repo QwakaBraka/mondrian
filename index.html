@@ -19,12 +19,23 @@
       grid-template-rows: 414px 130px 155px 20px;
       grid-template-columns: 320px 198px 153px 50px;
     }
+    @media (max-width: 680px){
+      .container{
+        grid-template-rows: 214px 30px 55px 10px;
+      grid-template-columns: 220px 98px 53px 20px;
+      }
+    }
     .item{
       display: flex;
       background-color: antiquewhite;
       justify-content: center;
       align-items: center;
       font-size: 4rem;
+    }
+    @media (max-width: 680px){
+        .item{
+        font-size: 2rem;
+      }
     }
     .red{
       background-color: #E72F24;
